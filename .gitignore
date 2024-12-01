@@ -1,0 +1,8 @@
+images/
+configs/
+.packer_cache
+*.env
+*.tgz
+*.bak
+*.pkrvars.hcl
+*.orig
