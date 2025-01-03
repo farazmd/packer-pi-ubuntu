@@ -21,12 +21,12 @@ variable "ssh_pub_key" {
   default = ""
 }
 variable "image_url" {
-  default = ""
+  default = "https://cdimage.ubuntu.com/releases/24.04.1/release/ubuntu-24.04.1-preinstalled-server-arm64+raspi.img.xz"
 }
-variable image_url_checksum {
-  default = ""
+variable "image_url_checksum" {
+  default = "https://cdimage.ubuntu.com/releases/24.04.1/release/SHA256SUMS"
 }
-variable base_dir_name {
+variable "base_dir_name" {
   default = ""
 }
 
